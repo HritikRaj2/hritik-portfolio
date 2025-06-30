@@ -1,86 +1,5 @@
 import Image from "next/image";
 
-const socialLinks = [
-  { name: "LinkedIn", url: "https://linkedin.com/in/hritikraj723" },
-  { name: "GitHub", url: "https://github.com/" },
-  { name: "Codeforces", url: "https://codeforces.com/" },
-  { name: "LeetCode", url: "https://leetcode.com/" },
-];
-
-const skills = [
-  "Java", "C", "Python", "SQL", "HTML5", "CSS3", "React", "MongoDB", "SpringBoot", "JDBC", "REST APIs"
-];
-
-const tools = [
-  "VS Code", "IntelliJ", "Canva", "Eclipse", "Jupyter Notebook"
-];
-
-const education = [
-  {
-    school: "Ajay Kumar Garg Engineering College, Ghaziabad",
-    degree: "B.Tech - Computer Science and Engineering",
-    year: "2023 – 2027",
-    location: "Ghaziabad, Uttar Pradesh",
-  },
-  {
-    school: "Bonne Anne Public School, Moradabad",
-    degree: "XII (CBSE)- PCM",
-    year: "2021 – 2023",
-    location: "Moradabad, Uttar Pradesh",
-  },
-];
-
-const projects = [
-  {
-    name: "Backend of Social Media Website",
-    tech: ["Spring Boot", "MySQL"],
-    date: "July 2025",
-    desc: "Developed a scalable backend for a social media platform using Spring Boot and MySQL, focusing on high availability and efficient database design. Implemented RESTful APIs and Spring Security for secure authentication.",
-  },
-  {
-    name: "Note-Taking Website",
-    tech: ["Spring Boot", "MongoDB"],
-    date: "June 2025",
-    desc: "Built a cloud-based note-taking app leveraging MongoDB's flexible data model for seamless organization and retrieval. Learned more about CRUD operations.",
-  },
-  {
-    name: "Bank Management System",
-    tech: ["Java", "Swing", "JDBC", "SQL"],
-    date: "Jan 2025",
-    desc: "Created an ATM-like system for banking transactions using Swing and SQL. Built user-friendly interfaces with Swing and AWT. Explored multiple aspects of software development while solving real-world problems.",
-  },
-  {
-    name: "Plant Disease Detection System",
-    tech: ["Python", "TensorFlow"],
-    date: "Sep 2024",
-    desc: "Developed a machine learning model to detect plant diseases, participated in Code Cubicle 2.0. Trained this model on an extensive dataset of over 17,000 images, covering more than 30 plant species.",
-  },
-];
-
-const experience = [
-  {
-    role: "Web Developer at Google Developer Group Akgec",
-    date: "June 2025 - Present",
-    location: "Ghaziabad, India",
-    desc: "Built and maintained RESTful APIs using Spring Boot for internal tools and community projects. Collaborated with frontend and design teams to ensure seamless integration and performance. Contributed to open-source GDG initiatives and improved backend code quality through best practices.",
-  },
-];
-
-const responsibility = [
-  {
-    role: "IT Representative, Bonne Anne Public School",
-    date: "April 2021 – April 2023",
-    location: "Moradabad, India",
-    desc: "Oversaw school IT labs, installed and configured software across systems. Assisted students and staff with troubleshooting hardware and software issues.",
-  },
-];
-
-const extracurricular = [
-  "Write about space and astronomy to explore scientific concepts and share insights online.",
-  "Flashing custom ROMs and optimizing Android performance.",
-  "Regularly engage in gym workouts focused on strength and discipline.",
-];
-
 export default function Home() {
   return (
     <>
@@ -190,7 +109,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="flex-1 animate-fade-in">
             <p className="text-gray-200 text-lg mb-4">
-              Hi! I'm Hritik Raj, a Computer Science student and backend developer passionate about scalable systems, clean code, and impactful technology. I enjoy working with Java, Spring Boot, and modern web stacks, and I'm always looking for new challenges and learning opportunities.
+              Hi! I&apos;m Hritik Raj, a Computer Science student and backend developer passionate about scalable systems, clean code, and impactful technology. I enjoy working with Java, Spring Boot, and modern web stacks, and I&apos;m always looking for new challenges and learning opportunities.
             </p>
             <ul className="list-disc list-inside text-gray-300 animate-fade-in">
               <li>Languages: Java, C, Python, SQL</li>
