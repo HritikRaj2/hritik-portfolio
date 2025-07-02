@@ -195,7 +195,7 @@ export default function Home() {
               <span className="font-bold text-lg text-white">Note Nest</span>
             </div>
             <p className="text-gray-300 mb-2">Spring Boot, MongoDB</p>
-            <p className="text-gray-400 text-sm mb-2">Built a cloud-based note-taking app leveraging MongoDB's flexible data model for seamless organization and retrieval. Learned more about CRUD operations.</p>
+            <p className="text-gray-400 text-sm mb-2">Built a cloud-based note-taking app leveraging MongoDB&apos;s flexible data model for seamless organization and retrieval. Learned more about CRUD operations.</p>
             <a href="https://github.com/HritikRaj2/Note_Nest" target="_blank" rel="noopener noreferrer" className="text-primary-400 hover:underline text-sm transition-colors duration-300">View on GitHub</a>
           </div>
           {/* Project 3 */}
